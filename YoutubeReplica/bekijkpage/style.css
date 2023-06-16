@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #131313;
+    height: fit-content;
+}
+
+#MainGrid {
+    display: grid;
+    grid-template-columns: fit-content 100%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.blackBG {
+    background-color: #131313;
+    color: #fff;
+}
+
+.whiteBG {
+    background-color: #fff;
+    color: #131313;
+}
+
+.navbar {
+    grid-area: 1 / 1 / 2 / 2;
+    min-width: 100px;
+    max-width: 5vw;
+    display: grid;
+    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(1, 100px);
+    height: 100vh;
+    color: #f0f0f0;
+    margin: 0;
+}
+
+.navBarText {
+    font-size: 13px;
+}
+
+.navbarIcon {
+    width: 90px;
+    border-bottom: #5d5d5d 0.5px solid;
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+}
+
+#div1 {
+    font-size: 500%;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#div2 {
+    font-size: 500%;
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#div3 {
+    margin-top: 5px;
+    font-size: 450%;
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#div4 {
+    margin-top: 5px;
+    font-size: 500%;
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+#div5 {
+    margin-top: 5px;
+    font-size: 400%;
+    grid-area: 5 / 1 / 6 / 2;
+}
+
+.icon {
+    font-size: 10%;
+}
+
+/* Hier CSS content */
+.smallRoundedCorner {
+    border-radius: 5px;
+}
+
+.roundedCorner {
+    border-radius: 15px;
+}
+
+#content {
+    background-color: #f0f0f0;
+    min-width: 90vw;
+    grid-area: 1 / 2 / 2 / 3;
+    padding: 2vw 2vw 2vw 0vw;
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#container {
+    padding: 1vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+}
+
+#videoBox {
+    grid-area: 1 / 1 / 2 / 2;
+    aspect-ratio: 16 / 9;
+    min-width: 250px;
+}
+
+#videoInfo {
+    padding: 1vw;
+    max-height: 300px;
+    min-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#videoInfo p {
+    min-height: fit-content;
+    scroll-behavior: smooth;
+}
+
+#videoInfo ::-webkit-scrollbar {
+    width: 8px;
+}
+#videoInfo ::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+#videoInfo ::-webkit-scrollbar-thumb {
+    background-color: #5d5d5d;
+    border-radius: 15px;
+    border: 3px solid #5d5d5d;
+}
+
+#channelBox {
+    grid-area: 1 / 2 / 2 / 3; 
+    margin-right: 1vw;
+    text-align: center;
+    min-width: 250px;
+    max-height: 660px;
+}
+
+#channelname h4 {
+    padding: 0;
+    margin-bottom: -2vh;
+}
+#channelPicture {
+    width: 150px;
+    height: 150px;
+    background-color: #5d5d5d;
+    border-radius: 50%;
+    margin: 1vw 1vw 0vw 1vw;
+}
+
+#pictureCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#descBox {
+    grid-area: 2 / 1 / 3 / 3; 
+    margin: 1vw 1vw 0vw 0vw;
+    text-align: center;
+}
+
+#extraInfo {
+    margin-top: 15px;
+}
+
+#extraInfo b {
+    color: #5d5d5d;
+    text-transform: uppercase;
+}
+
+#views {
+    width: 40%;
+    height: 15px;
+    display: inline-block;
+}
+
+#followers {
+    display: inline-block;
+    width: 50%;
+    height: 15px;
+}
+
+#videoInfo h1 {
+    width: 100%;
+    min-height: 110px;
+    max-height: 110px;
+    overflow: hidden;
+}
+
+.aanbVideoBox {
+    display: inline-block;
+    height: 170px;
+    max-height: 170px;
+    width: auto;
+    aspect-ratio: 16 / 9;
+    margin: 1vw;
+}
+
+#aanbVideoList {
+    display: inline-block;
+    overflow: hidden;
+    min-height: 22.5vh;
+    max-height: 225px;
+}
+
+.button {
+    width: 90%;
+    padding: .5vw;
+    border: none;
+    background-color: #9b9b9b;
+}
+
+#followButton {
+    padding: .5vw;
+    width: 150px;
+    background-color: #9b9b9b;
+    border: none;
+}
+
+#followButtonNI {
+    padding: .5vw;
+    width: 280px;
+    background-color: #fff;
+    border: none;
+    display: hidden;
+    color: red;
+}

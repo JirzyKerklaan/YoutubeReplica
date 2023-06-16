@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #131313;
+    height: 100vh;
+}
+
+.blackBG {
+    background-color: #131313;
+    color: #fff;
+}
+
+.whiteBG {
+    background-color: #fff;
+    color: #131313;
+}
+
+.greyBG {
+    background-color: #474747;
+    color: #f0f0f0;
+}
+
+.fontWhite {
+    color: #fff;
+}
+
+.roundedCorner {
+    border-radius: 15px;
+}
+
+.smallRoundedCorner {
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.roundedTopCorner {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.uploadFormInput {
+    margin: 5px;
+}
+
+#outerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    width: 75vw;
+    height: 80vh;
+    min-height: 400px;
+    min-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 7.5vh 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#topbar {
+    grid-area: 1 / 1 / 2 / 3;
+    height: 7.5vh;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.textPosition {
+    padding: .5vw;
+}
+
+.opacityChange {
+    opacity: .7;
+}
+
+#uploadForm {
+    grid-area: 2 / 1 / 3 / 2;
+    padding: 3.5vw;
+    min-height: fit-content;
+    width: fit-content;
+    min-width: 275px;
+}
+
+#titleField {
+    width: 100%;
+    height: 5vh;
+    min-width: 200px;
+}
+
+#bioField {
+    width: 100%;
+    height: 15vh;
+    min-width: 200px;
+}
+
+#thumbnailField {
+    height: 5vh;
+    min-width: 100px;
+    min-width: 13.5vw;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#videoField {
+    height: 5vh;
+    min-width: 100px;
+    min-width: 13.5vw;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#horizontal {
+    display: grid;
+    grid-template-columns: 2;
+    max-width: 37%;
+    min-width: 200px;
+}
+
+form {
+    width: fit-content;
+}
+
+#kanaalNaam {
+    margin-right: 10px;
+}
+
+#previewTab {
+    grid-area: 2 / 2 / 3 / 3;
+    min-width: 275px;
+    padding: 3.5vw;
+}
+
+.vidInfoText{
+    display: inline-block;
+    font-size: 0.6vw;
+}
+
+#videoTab {
+    grid-area: 1 / 1 / 2 / 2;
+    height: 10vh;
+    min-height: 100px;
+    width: 165px;
+}
+
+#videoTab {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#textTab {
+    grid-area: 1 / 2 / 2 / 3;
+    min-height: 100px;
+    max-height: 80px;
+    min-width: 180px;
+    max-width: 290px;
+    max-inline-size: 94%;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+#previewGrid {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 180px;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+    height: 100px;
+    background-color: #f0f0f0;
+}

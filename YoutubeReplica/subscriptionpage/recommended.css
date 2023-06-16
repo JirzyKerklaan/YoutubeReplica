@@ -1,0 +1,5 @@
+#recommendedBox {
+    text-align: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

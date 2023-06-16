@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" href="./images/UPipe.png">
+            <title>uPipe - Unhide yourself</title>
+            <link rel="stylesheet" href="./style.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+<body>
+    <div id="contentBox">
+        <div class="logInBox whiteBG roundedCorner fontWhite">
+            <div id="creatorUserTab" class="whiteBG">
+                <div id="inner">
+                <form method="POST" action="./LogInVerwerk.php" name="creatorUser">
+                    <input type="text" required placeholder="Gebruikersnaam" name="userName" class="inputField smallRoundedCorner"><br>
+                    <input type="password" required placeholder="Wachtwoord" name="password" class="inputField smallRoundedCorner"><br>
+                    </select>
+                    <input type="hidden" value="creator" name="type">
+                    <input type="submit" value="inloggen" name="login" class="inputFieldButton smallRoundedCorner">
+                </form><br>
+                <a href="./SignIn.html" id="accountText">Heeft u nog geen account? Maak er hier 1 aan!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

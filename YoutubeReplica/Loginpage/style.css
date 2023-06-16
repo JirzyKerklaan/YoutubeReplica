@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #131313;
+}
+
+.blackBG {
+    background-color: #131313;
+    color: #fff;
+}
+
+.whiteBG {
+    background-color: #fff;
+    color: #131313;
+}
+
+.fontWhite {
+    color: #fff;
+}
+
+.roundedCorner {
+    border-radius: 15px;
+}
+
+.smallRoundedCorner {
+    border-radius: 5px;
+}
+
+#contentBox {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logInBox {
+    min-height: 600px;
+    min-width: 400px;
+    width: 20vw;
+    height: 60vh;
+    text-align: center;
+}
+
+#fanUser {
+    display: inline-block;
+    border-top-left-radius: 15px;
+    width: 50%;
+    height: 7vh;
+    min-height: 70px;
+    background-color: #D9D9D9;
+}
+
+#creatorUser {
+    border-top-right-radius: 15px;
+    width: 50%;
+    height: 7vh;
+    min-height: 70px;
+    background-color: #D9D9D9;
+    float: right;
+}
+
+.selectedFan {
+    border-top-left-radius: 15px;
+    background-color: #C3C3C3;
+}
+
+.selectedCreator {
+    border-top-right-radius: 15px;
+    background-color: #C3C3C3;
+}
+
+.centreText {
+    height: 100%;
+    margin: auto;
+    line-height: 60px;
+}
+
+#creatorUserTab {
+    text-align: center;
+    color: #131313;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#fanUserTab {
+    text-align: center;
+    color: #131313;
+    height: 100%;
+}
+
+.inputField {
+    margin-bottom: 1vw;
+    width: 95%;
+    height: 5vh;
+    min-height: 50px;
+    font-weight: lighter;
+    border: none;
+    border-bottom: 2px solid #C3C3C3;
+}
+
+#inner {
+    margin: 0 auto;
+}
+
+.halfInputField {
+    text-align: center;
+    margin-bottom: 1vw;
+    width: 47.5%;
+    height: 5vh;
+    min-height: 50px;
+    font-weight: lighter;
+    border: none;
+    border-bottom: 2px solid #C3C3C3;
+}
+
+.inputFieldButton {
+    color: #f0f0f0;
+    background-color: #131313;
+    width: 95%;
+    height: 5vh;
+    min-height: 50px;
+}
+
+.inputFieldSelect {
+    width: 95%;
+    height: 5vh;
+    margin-bottom: 1vh;
+}
+
+#infotext {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 2vh;
+}
+
+#accountText {
+    font-style: oblique;
+    color: #1313137a;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" href="./images/UPipe.png">
+            <title>uPipe - Unhide yourself</title>
+            <link rel="stylesheet" href="./style.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+<body>
+    <div id="contentBox">
+        <div class="logInBox whiteBG roundedCorner fontWhite">
+            <div id="creatorUserTab" class="whiteBG">
+                <div id='infotext' style="display: none;">
+                    <h3>Registreer als een Creator</h3>
+                    <p>Als een creator kan je video's posten en zien hoeveel mensen deze video's bekijken. Ook kan je volgers krijgen.</p>
+                    <br>
+                    <h3>Registreer als een Fan</h3>
+                    <p>Als een fan kan je video's bekijken, liken en een comment achter laten. Ook kan je creators volgen.</p>
+                </div>
+                <div id="inner">
+                <form method="POST" action="./SignInVerwerk.php" name="creatorUser">
+                    <input type="text" name="fname" required placeholder="voornaam" class="halfInputField smallRoundedCorner">
+                    <input type="text" name="lastname" required placeholder="achternaam" class="halfInputField smallRoundedCorner"><br>
+                    <input type="text" name="userName" required placeholder="Gebruikersnaam" class="inputField smallRoundedCorner">
+                    <input type="email" name="email" required placeholder="Email adres" class="inputField smallRoundedCorner"><br>
+                    <input type="password" name="password" required placeholder="Wachtwoord" class="inputField smallRoundedCorner"><br>
+                    <select name="AccountType" required class="inputFieldSelect smallRoundedCorner">
+                        <option value="accountType" class="inputFieldSelect smallRoundedCorner" hidden>Selecteer accounttype</option>
+                        <option value="creator">Creator</option>
+                        <option value="fan">Fan</option>
+                    </select>
+                    <input type="hidden" value="creator" name="type">
+                    <input type="submit" value="Regristreer" name="signin" class="inputFieldButton smallRoundedCorner">
+                </form><br>
+                <a href="./Login.html" id="accountText">Heeft u al een account? Log hier in!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
