@@ -2,6 +2,8 @@
 
 ![Logo](https://87252.stu.sd-lab.nl/GitHub/YoutubeReplica.PNG)
 
+## About the project
+
 Welcome to YouTubeReplica, a web application specifically designed as a faithful replica of YouTube. Whether you're a passionate creator looking to upload videos with appealing thumbnails or an enthusiastic fan eager to post comments and follow creators, YouTubeReplica provides everything you need.
 
 ### Discover a World of Videos
@@ -21,11 +23,6 @@ As a fan, you have the opportunity to follow your favorite creators and engage w
 At YouTubeReplica, personalization is key. Create your own profile and give it the look that suits you best. Set your interests, follow your favorite creators, and manage your personalized video collection. YouTubeReplica empowers you to take control of your viewing experience and helps you build a community around your passions.
 
 YouTubeReplica offers the ultimate video experience, whether you're a creator or a fan. Sign up today, discover new content, create amazing videos, and connect with a passionate community. Your adventure begins here!
-
-
-# Autors
-
-- [@JirzyKerklaan](https://www.github.com/JirzyKerklaan)
 
 ## Lessons Learned
 
@@ -51,3 +48,7 @@ Throughout the development of the YouTubeReplica project, several valuable lesso
 
 * #### Effective Collaboration and Communication
 ###### The success of a complex software development project relies on effective collaboration and communication among team members. Regular team meetings, clear communication channels, and utilizing project management tools facilitated seamless coordination, reduced misunderstandings, and ensured project milestones were met.
+
+# Autors
+
+- [@JirzyKerklaan](https://www.github.com/JirzyKerklaan)
