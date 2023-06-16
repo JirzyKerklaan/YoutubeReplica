@@ -21,9 +21,6 @@ At YouTubeReplica, personalization is key. Create your own profile and give it t
 YouTubeReplica offers the ultimate video experience, whether you're a creator or a fan. Sign up today, discover new content, create amazing videos, and connect with a passionate community. Your adventure begins here!
 
 
-# Actors
+# Autors
 
 - [@JirzyKerklaan](https://www.github.com/JirzyKerklaan)
-
-## 🚀 About Me
-
