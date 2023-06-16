@@ -1,5 +1,7 @@
 # YouTubeReplica - Discover, Create, and Connect with Videos
 
+![Logo](https://87252.stu.sd-lab.nl/GitHub/YoutubeReplica.PNG)
+
 Welcome to YouTubeReplica, a web application specifically designed as a faithful replica of YouTube. Whether you're a passionate creator looking to upload videos with appealing thumbnails or an enthusiastic fan eager to post comments and follow creators, YouTubeReplica provides everything you need.
 
 ### Discover a World of Videos
