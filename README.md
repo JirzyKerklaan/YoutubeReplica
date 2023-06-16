@@ -1,6 +1,6 @@
-![Logo](https://87252.stu.sd-lab.nl/GitHub/YoutubeReplica.PNG)
-
 # YouTubeReplica - Discover, Create, and Connect with Videos
+
+![Logo](https://87252.stu.sd-lab.nl/GitHub/YoutubeReplica.PNG)
 
 Welcome to YouTubeReplica, a web application specifically designed as a faithful replica of YouTube. Whether you're a passionate creator looking to upload videos with appealing thumbnails or an enthusiastic fan eager to post comments and follow creators, YouTubeReplica provides everything you need.
 
@@ -26,3 +26,10 @@ YouTubeReplica offers the ultimate video experience, whether you're a creator or
 # Autors
 
 - [@JirzyKerklaan](https://www.github.com/JirzyKerklaan)
+
+## Lessons Learned
+
+#### Throughout the development of the YouTubeReplica project, several valuable lessons were learned that have contributed to its success and provided insights for future endeavors. Here are some key lessons learned:
+
+* # Thoroughly Understanding User Needs
+
