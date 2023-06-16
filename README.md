@@ -29,7 +29,7 @@ YouTubeReplica offers the ultimate video experience, whether you're a creator or
 
 ## Lessons Learned
 
-#### Throughout the development of the YouTubeReplica project, several valuable lessons were learned that have contributed to its success and provided insights for future endeavors. Here are some key lessons learned:
+Throughout the development of the YouTubeReplica project, several valuable lessons were learned that have contributed to its success and provided insights for future endeavors. Here are some key lessons learned:
 
-* # Thoroughly Understanding User Needs
+* #### Thoroughly Understanding User Needs
 
