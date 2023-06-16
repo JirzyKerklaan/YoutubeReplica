@@ -23,4 +23,7 @@ YouTubeReplica offers the ultimate video experience, whether you're a creator or
 
 # Actors
 
+- [@JirzyKerklaan](https://www.github.com/JirzyKerklaan)
+
+## 🚀 About Me
 
